@@ -4,6 +4,7 @@
 .titulo {
   font-family: 'Coda', cursive;
   font-size: 10vmin;
+  margin-bottom: 0;
 }
 
 #container-machine {
@@ -12,7 +13,6 @@
   background-color: lightseagreen;
   display: flex;
   flex-direction: column;
-   /* justify-content: space-between;  */
   align-items: center; 
 }
 
@@ -50,11 +50,8 @@
   background-color: white;
   cursor: pointer;
   position: absolute;
-  /* top-left -- top-right -- bottom-right -- bottom-left*/
-  /* border-radius: 25px 50px 60px 60px;  */
   border-radius: 50%;
   padding: 10px;
-  /* border: 1px solid black; */
 }
 
 #twitter {
