@@ -31,6 +31,10 @@
 }
 
 #quote-box::after {
+
+}
+
+#quote-box::after {
   content: "";
   border-left: 100px solid transparent;
   border-right: 30px solid transparent;
