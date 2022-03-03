@@ -1,0 +1,54 @@
+#container-machine {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+   /* justify-content: space-between;  */
+  align-items: center; 
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 5px 0 5px;
+  align-items: center;
+  position: relative;
+  width: 60%;
+  height: 30%;
+  background: #fff;
+  border-radius: 5px;  
+  margin: 5%;
+}
+
+#quote-box::after {
+  content: "";
+  border-left: 100px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 80px solid #fff;
+  position: absolute;
+  bottom: -50px;
+  right: 80px;
+}
+
+#twitter, #new-quote {
+  background-color: white;
+  cursor: pointer;
+  position: absolute;
+  /* top-left -- top-right -- bottom-right -- bottom-left*/
+  /* border-radius: 25px 50px 60px 60px;  */
+  border-radius: 50%;
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+#twitter {
+  top: -6px;
+  right: -10px;
+}
+
+#new-quote {
+  bottom: -6px;
+  right: -10px;
+}
