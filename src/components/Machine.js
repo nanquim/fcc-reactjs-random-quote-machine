@@ -13,7 +13,7 @@ function Machine() {
     useEffect(() => {
         setNewQuote()
     }, []);
-
+    
     function setNewQuote() {
         setQuote(data.quotes[Math.floor(Math.random() * (data.quotes.length))])
     }
