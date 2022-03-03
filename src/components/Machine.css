@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Coda&display=swap');
+
+.titulo {
+  font-family: 'Coda', cursive;
+  font-size: 10vmin;
+}
+
 #container-machine {
   width: 100vw;
   height: 100vh;
@@ -30,6 +38,12 @@
   position: absolute;
   bottom: -50px;
   right: 80px;
+}
+
+
+#text, #author {
+  font-family: 'Amatic SC', cursive;
+  font-size: 6vmin;
 }
 
 #twitter, #new-quote {
